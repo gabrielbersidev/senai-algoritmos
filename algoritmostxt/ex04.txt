@@ -1,0 +1,31 @@
+Início
+
+1-Definir Materiais
+Materiais {
+esponja,
+detergente,
+água
+}
+
+2-Verificar Materiais
+Se faltar algum material:
+  providenciar
+Senão:
+  prosseguir para o passo 3
+
+3-Organizar Louça
+Separar pratos, copos e talheres
+
+4-Lavar
+Ensaboar e enxaguar cada item
+
+5-Verificar Limpeza
+Se item estiver limpo:
+  colocar para secar
+Senão:
+  lavar novamente
+
+6-Finalizar
+Guardar louça seca
+
+Fim
