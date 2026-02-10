@@ -1,0 +1,32 @@
+Início
+
+1-Definir Recursos
+Recursos {
+televisão ou computador,
+internet ou mídia física,
+pipoca (opcional)
+}
+
+2-Verificar Recursos
+Se faltar algum recurso:
+  providenciar
+Senão:
+  prosseguir para o passo 3
+
+3-Escolher Filme
+Selecionar o filme desejado
+
+4-Preparar Ambiente
+Ajustar volume e iluminação
+
+5-Reproduzir Filme
+Dar play no filme
+
+6-Assistir
+Enquanto filme ≠ finalizado:
+  assistir
+
+7-Finalizar
+Encerrar reprodução
+
+Fim
