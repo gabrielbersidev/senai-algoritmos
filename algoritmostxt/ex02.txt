@@ -1,0 +1,36 @@
+Início
+
+1-Definir Materiais
+Materiais {
+documento com foto,
+caneta preta,
+água,
+lanches
+}
+
+2-Verificar Materiais
+Se faltar algum material:
+  providenciar antes de sair
+Senão:
+  prosseguir para o passo 3
+
+3-Deslocar-se ao Local da Prova
+Ir ao local com antecedência
+
+4-Entrada no Local
+Se horário permitido:
+  entrar
+Senão:
+  aguardar
+
+5-Realizar a Prova
+Ler as questões e responder
+
+6-Verificar Tempo
+Enquanto tempo > 0:
+  continuar resolvendo
+
+7-Finalizar
+Entregar a prova
+
+Fim
