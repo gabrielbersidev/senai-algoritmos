@@ -1,0 +1,32 @@
+Início
+
+1-Definir Materiais
+Materiais {
+vassoura,
+rodo,
+pano,
+produtos de limpeza
+}
+
+2-Verificar Materiais
+Se faltar algum material:
+  providenciar
+Senão:
+  prosseguir para o passo 3
+
+3-Organizar Ambiente
+Recolher objetos espalhados
+
+4-Limpar Superfícies
+Passar pano nos móveis
+
+5-Limpar o Chão
+Varrer e passar pano
+
+6-Verificar Limpeza
+Se ambiente estiver limpo:
+  finalizar
+Senão:
+  repetir limpeza
+
+Fim
