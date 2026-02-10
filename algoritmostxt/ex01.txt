@@ -1,0 +1,60 @@
+Início
+
+1-Definir Ingredientes
+Ingredientes {
+3 ovos,
+1 xícara de suco de laranja,
+1 xícara de óleo,
+2 xícaras de açúcar,
+3 xícaras de farinha de trigo,
+1 colher de fermento em pó
+}
+
+
+2-Separar Ingredientes
+Se faltar algum ingrediente:
+  ir ao mercado e adquirir
+Senão:
+  prosseguir para o passo 4
+
+
+3-Preaquecer o Forno
+Ligar o forno a 180 °C
+
+4-Aguardar Temperatura
+Enquanto temperatura ≠ 180 °C:
+  aguardar
+Quando temperatura = 180 °C:
+  prosseguir
+
+5-Misturar Ingredientes Líquidos
+Colocar no liquidificador: ovos, suco de laranja, óleo e açúcar
+
+6-Bater Mistura
+Bater até obter uma mistura homogênea
+
+7-Transferir Mistura
+Transferir a mistura para uma tigela
+
+8-Adicionar Ingredientes Secos
+Adicionar a farinha aos poucos, misturando bem
+
+9-Adicionar Fermento
+Acrescentar o fermento e misturar delicadamente
+
+10-Preparar para Assar
+Despejar a massa em uma forma untada
+
+11-Assar
+Levar ao forno por aproximadamente 40 minutos
+
+12-Verificar Assamento
+Se o palito sair limpo:
+  bolo está assado
+Senão:
+  continuar assando e repetir a verificação
+
+13-Finalizar
+Retirar o bolo do forno
+
+Fim
