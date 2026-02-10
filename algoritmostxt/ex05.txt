@@ -1,0 +1,34 @@
+Início
+
+1-Definir Materiais
+Materiais {
+camiseta,
+estampa,
+prensa térmica ou ferro
+}
+
+2-Verificar Materiais
+Se faltar algum material:
+  providenciar
+Senão:
+  prosseguir para o passo 3
+
+3-Preparar Camiseta
+Posicionar a camiseta corretamente
+
+4-Posicionar Estampa
+Colocar a estampa no local desejado
+
+5-Aplicar Calor
+Aplicar calor pelo tempo recomendado
+
+6-Verificar Estampa
+Se estampa fixada:
+  prosseguir
+Senão:
+  reaplicar calor
+
+7-Finalizar
+Deixar esfriar
+
+Fim
