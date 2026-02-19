@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="fluxogramanota"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-19 03:37:19 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzEyOzIwMjYtMDItMTk7IjAxOjQwOjEzICI7MjE3Nw=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzEyOzIwMjYtMDItMTk7IjAzOjM3OjE5ICI7MjsyMzAw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="name" type="String" array="False" size=""/>
+            <declare name="n1, n2, n3" type="Integer" array="False" size=""/>
+            <declare name="M&#233;dia" type="Real" array="False" size=""/>
+            <output expression="&quot;Ol&#225;, Professor! Seja bem-vindo ao nosso sistema escolar de aprova&#231;&#227;o.&quot;" newline="True"/>
+            <output expression="&quot;Digite o nome do aluno para come&#231;armos: &quot;" newline="True"/>
+            <input variable="name"/>
+            <output expression="&quot;Perfeito, para prosseguirmos, digite a nota desempenhada pelo aluno no primeiro instrumento avaliativo aplicado: &quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;Digite agora, sua segunda nota: &quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;Por &#250;ltimo, sua terceira nota: &quot;" newline="True"/>
+            <input variable="n3"/>
+            <assign variable="M&#233;dia" expression="(n1+n2+n3)/3"/>
+            <if expression="M&#233;dia &gt;= 7">
+                <then>
+                    <output expression="&quot;O aluno &quot; &amp;name&amp; &quot; est&#225; aprovado com uma m&#233;dia geral de:&quot;" newline="True"/>
+                    <output expression="M&#233;dia" newline="True"/>
+                </then>
+                <else>
+                    <if expression="M&#233;dia&lt;=6.9">
+                        <then>
+                            <if expression="M&#233;dia&gt;=5">
+                                <then>
+                                    <output expression="&quot;O aluno &quot; &amp;name&amp; &quot; est&#225; de recupera&#231;&#227;o, com uma m&#233;dia geral de:&quot;" newline="True"/>
+                                    <output expression="M&#233;dia" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;Infelizmente o aluno &quot; &amp;name&amp; &quot; est&#225; reprovado, devido sua m&#233;dia geral inferior a 5. Sua m&#233;dia final &#233; de:&quot;" newline="True"/>
+                                    <output expression="M&#233;dia" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <output expression="&quot;O aluno &quot; &amp;name&amp; &quot;est&#225; aprovado com uma m&#233;dia geral de:&quot;" newline="True"/>
+                            <output expression="M&#233;dia" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

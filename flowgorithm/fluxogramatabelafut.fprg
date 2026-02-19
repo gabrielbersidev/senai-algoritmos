@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="fluxogramatabelafut"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-19 03:19:01 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzEyOzIwMjYtMDItMTk7IjAzOjExOjU3ICI7MjE4NQ=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzEyOzIwMjYtMDItMTk7IjAzOjE5OjAxICI7MTsyMjkw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="teamname" type="String" array="False" size=""/>
+            <declare name="tieuser" type="Integer" array="False" size=""/>
+            <declare name="victoryuser" type="Integer" array="False" size=""/>
+            <declare name="tiepoint" type="Integer" array="False" size=""/>
+            <declare name="victorypoint" type="Integer" array="False" size=""/>
+            <declare name="totalpontuacao" type="Integer" array="False" size=""/>
+            <assign variable="tiepoint" expression="1"/>
+            <assign variable="victorypoint" expression="3"/>
+            <output expression="&quot;Seja bem-vindo ao calculador de pontos da tabela do Brasileir&#227;o!&quot;" newline="True"/>
+            <output expression="&quot;Qual o nome do seu time?&quot;" newline="True"/>
+            <input variable="teamname"/>
+            <output expression="&quot;Quantas vit&#243;rias tem seu time?&quot;" newline="True"/>
+            <input variable="victoryuser"/>
+            <output expression="&quot;Quantos empates tem seu time?&quot;" newline="True"/>
+            <input variable="tieuser"/>
+            <assign variable="totalpontuacao" expression="(victorypoint*victoryuser)+(tieuser*tiepoint)"/>
+            <output expression="&quot;Boa! Seu time tem &quot; &amp;totalpontuacao&amp; &quot;pts.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
