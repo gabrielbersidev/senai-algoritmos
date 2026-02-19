@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="fluxogramasucessor"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-19 02:43:55 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzEyOzIwMjYtMDItMTk7IjAyOjE4OjQyICI7MjE4NQ=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzEyOzIwMjYtMDItMTk7IjAyOjQzOjU1ICI7MTsyMjk1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1" type="Integer" array="False" size=""/>
+            <declare name="sucessor" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o n&#250;mero que voc&#234; deseja descobrir o sucessor:&quot;" newline="True"/>
+            <input variable="n1"/>
+            <assign variable="sucessor" expression="n1+1"/>
+            <output expression="&quot;O sucessor de seu n&#250;mero &#233;: &quot; &amp; sucessor &amp; &quot; &quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

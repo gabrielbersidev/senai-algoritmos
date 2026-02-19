@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="fluxogramanota"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-19 02:49:59 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzEyOzIwMjYtMDItMTk7IjAxOjQwOjEzICI7MjE3Nw=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzEyOzIwMjYtMDItMTk7IjAyOjQ5OjU5ICI7MjsyMzA2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2" type="Integer" array="False" size=""/>
+            <declare name="&#193;rea" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o comprimento do seu ret&#226;ngulo em metros:&quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;Digite sua largura em metros: &quot;" newline="True"/>
+            <input variable="n2"/>
+            <assign variable="&#193;rea" expression="n1*n2"/>
+            <output expression="&quot;A &#225;rea do seu ret&#226;ngulo &#233; de: &quot; &amp; &#193;rea &amp; &quot;m&#178;&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

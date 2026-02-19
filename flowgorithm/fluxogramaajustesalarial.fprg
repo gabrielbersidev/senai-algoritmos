@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="fluxogramanota"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-19 03:11:14 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzEyOzIwMjYtMDItMTk7IjAxOjQwOjEzICI7MjE3Nw=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzEyOzIwMjYtMDItMTk7IjAzOjExOjE0ICI7NDsyMjg5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="name" type="String" array="False" size=""/>
+            <declare name="salario" type="Real" array="False" size=""/>
+            <declare name="reajuste" type="Real" array="False" size=""/>
+            <declare name="salariofinal" type="Real" array="False" size=""/>
+            <output expression="&quot;Bem-vindo ao seu facilitador de reajuste de sal&#225;rio!&quot;" newline="True"/>
+            <output expression="&quot;Digite o nome do funcion&#225;rio: &quot;" newline="True"/>
+            <input variable="name"/>
+            <output expression="&quot;Agora digite o sal&#225;rio do funcion&#225;rio: &quot;" newline="True"/>
+            <input variable="salario"/>
+            <output expression="&quot;Por &#250;ltimo, digite a % do reajuste salarial: &quot;" newline="True"/>
+            <input variable="reajuste"/>
+            <assign variable="salariofinal" expression="(salario)+((salario*reajuste)/100)"/>
+            <output expression="&quot;O sal&#225;rio final do funcion&#225;rio &quot; &amp; name &amp; &quot; &#233; de:&quot;" newline="True"/>
+            <output expression="&quot;R$&quot; &amp; salariofinal &amp; &quot; &quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

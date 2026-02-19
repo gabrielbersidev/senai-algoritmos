@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="fluxogramanota"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-19 02:55:15 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzEyOzIwMjYtMDItMTk7IjAxOjQwOjEzICI7MjE3Nw=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzEyOzIwMjYtMDItMTk7IjAyOjU1OjE1ICI7MzsyMjk2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2" type="Integer" array="False" size=""/>
+            <declare name="Temp" type="Real" array="False" size=""/>
+            <output expression="&quot;Bem-vindo ao seu conversor de temperatura em Celsius para Fahrenheit&quot;" newline="True"/>
+            <output expression="&quot;Digite sua temperatura em Celsius: &quot;" newline="True"/>
+            <input variable="n1"/>
+            <assign variable="Temp" expression="((n1 * 9)/5)+32"/>
+            <output expression="&quot;A sua temperatura em Celsius para Fahrenheit &#233; de: &quot; &amp; Temp &amp; &quot;&#176;F&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
