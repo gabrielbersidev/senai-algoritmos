@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="fluxogramanota"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-19 02:00:06 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzEyOzIwMjYtMDItMTk7IjAxOjQwOjEzICI7MjE3Nw=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzEyOzIwMjYtMDItMTk7IjAyOjAwOjA2ICI7MTsyMjg0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3, n4" type="Integer" array="False" size=""/>
+            <declare name="M&#233;dia" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite sua primeira nota: &quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;Digite sua segunda nota: &quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;Digite sua terceira nota: &quot;" newline="True"/>
+            <input variable="n3"/>
+            <output expression="&quot;Digite sua quarta nota: &quot;" newline="True"/>
+            <input variable="n4"/>
+            <assign variable="M&#233;dia" expression="(n1+n2+n3+n4)/4"/>
+            <if expression="M&#233;dia&gt;=7">
+                <then>
+                    <output expression="&quot;Parab&#233;ns, voc&#234; foi aprovado e&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Voc&#234; n&#227;o foi aprovado e&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;sua M&#233;dia Final &#233; de:&quot;" newline="True"/>
+            <output expression="M&#233;dia" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
