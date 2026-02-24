@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="receita"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-24 08:57:15 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzEyOzIwMjYtMDItMjQ7IjA4OjQ4OjI5ICI7MjE5NQ=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzEyOzIwMjYtMDItMjQ7IjA4OjU3OjE1ICI7MTsyMjk4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Separar ingredientes&quot;" newline="True"/>
+            <output expression="&quot;Misturar ovos, a&#231;&#250;car e &#243;leo&quot;" newline="True"/>
+            <output expression="&quot;Adicionar suco de laranja&quot;" newline="True"/>
+            <output expression="&quot;Adicionar farinha de trigo&quot;" newline="True"/>
+            <output expression="&quot;Adicionar fermento&quot;" newline="True"/>
+            <output expression="&quot;Misturar tudo&quot;" newline="True"/>
+            <output expression="&quot;Despejar na forma&quot;" newline="True"/>
+            <output expression="&quot;Levar ao forno por 40 minutos&quot;" newline="True"/>
+            <output expression="Espere" newline="True"/>
+            <while expression="&quot;n&#227;o assado&quot;"/>
+            <output expression="&quot;Bolo pronto!&quot;" newline="True"/>
+            <output expression="" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

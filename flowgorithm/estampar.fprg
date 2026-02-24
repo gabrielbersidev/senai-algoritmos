@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="receita"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-24 09:06:08 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzEyOzIwMjYtMDItMjQ7IjA4OjQ4OjI5ICI7MjE5NQ=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzEyOzIwMjYtMDItMjQ7IjA5OjA2OjA4ICI7MjsyMjk2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Escolher a arte&quot;" newline="True"/>
+            <output expression="&quot;Colocar camiseta na prensa&quot;" newline="True"/>
+            <output expression="&quot;Posicionar a arte&quot;" newline="True"/>
+            <output expression="&quot;Ajustar temperatura&quot;" newline="True"/>
+            <output expression="&quot;Prensar por 20 segundos&quot;" newline="True"/>
+            <output expression="&quot;Retirar da prensa&quot;" newline="True"/>
+            <output expression="&quot;Camiseta pronta!&quot;" newline="True"/>
+            <output expression="&quot;Bolo pronto!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

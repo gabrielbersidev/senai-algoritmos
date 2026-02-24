@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="enem"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-24 08:59:49 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzEyOzIwMjYtMDItMjQ7IjA4OjU3OjE4ICI7MjE5Mw=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzEyOzIwMjYtMDItMjQ7IjA4OjU5OjQ5ICI7MTsyMzA3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="estudo" type="Integer" array="False" size=""/>
+            <output expression="&quot;voc&#234; estudou? (1-Sim / 0-N&#227;o)&quot;" newline="True"/>
+            <input variable="estudo"/>
+            <if expression="estudo &gt;= 1">
+                <then>
+                    <output expression="&quot;fa&#231;a a prova com confian&#231;a&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;tenta resolver com o que souber&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;preencha o gabarito&quot;" newline="True"/>
+            <output expression="&quot;entregue a prova&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
