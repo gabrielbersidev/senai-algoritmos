@@ -13,7 +13,7 @@ Este repositório organiza os conteúdos por semestre, facilitando a navegação
 - 📅 **Duração:** 4 Semestres  
 - 💻 **Modalidade:** Presencial / Técnico  
 
----
+----
 
 ## 📂 Estrutura do Repositório
 
