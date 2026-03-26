@@ -9,10 +9,12 @@ public class Exercicio08 {
         System.out.print("Digite um número: ");
         int num = scanner.nextInt();
 
-        if (num>0) {
+        if (num > 0) {
             System.out.println("O número " + num + " é positivo.");
-        } else {
+        } else if (num < 0) {
             System.out.println("O número " + num + " é negativo.");
+        } else {
+            System.out.println("O número inserido é zero.");
         }
 
         scanner.close();

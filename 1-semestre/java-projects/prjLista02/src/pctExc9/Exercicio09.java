@@ -11,10 +11,12 @@ public class Exercicio09 {
         System.out.print("Digite outro número: ");
         int num2 = scanner.nextInt();
         
-        if (num>num2) {
-            System.out.println("O número " + num + " é maior que o número " + num2 + " ");
+        if (num == num2) {
+            System.out.println("Os números são iguais");
+        } else if (num > num2) {
+            System.out.println("O número " + num + " é maior que o número " + num2);
         } else {
-            System.out.println("O número " + num2 + " é maior que o número " + num + " ");
+            System.out.println("O número " + num2 + " é maior que o número " + num);
         }
 
         scanner.close();

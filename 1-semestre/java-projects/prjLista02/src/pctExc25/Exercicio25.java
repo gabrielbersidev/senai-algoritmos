@@ -6,7 +6,8 @@ public class Exercicio25 {
     public static void main(String[] args) {
     	Scanner scanner = new Scanner(System.in);
 
-    	int num = scanner.nextInt();
+    	System.out.print("Digite um número: ");  // Adicionar esta linha
+		int num = scanner.nextInt();
 
     	if (!(num == 0)) {
     	    System.out.println("Número diferente de zero");
