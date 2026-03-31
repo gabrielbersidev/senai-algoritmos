@@ -47,6 +47,7 @@ public class Exercicio02 {
         }
         if (amount>3) {
             discount = (finalPrice / 100) * 10;
+
             finalWithDiscount = finalPrice - discount;
             System.out.println("Valor sem desconto: R$ " + finalPrice);
             System.out.println("Desconto (10%): R$ " + discount);
