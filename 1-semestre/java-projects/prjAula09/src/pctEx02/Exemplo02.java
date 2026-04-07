@@ -1,7 +1,6 @@
 package pctEx02;
 
 public class Exemplo02 {
-
 	public static void main(String[] args) {
 		System.out.println("Tabuada do 5:");
 
