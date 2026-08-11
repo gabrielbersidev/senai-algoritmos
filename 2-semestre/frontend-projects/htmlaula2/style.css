@@ -1,9 +1,29 @@
-*{
-    font: 1em sans-serif;
+* {
+    font-family: sans-serif;
 }
 
-h1{
-    font: 3em sans-serif;
+h1 {
+    font-size: 3em;
     font-weight: bold;
-    color: rgb(17, 155, 17);
+    color: yellow;
+    background-color: green;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    ;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+li{
+    text-align: center;
+    list-style: none;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    padding-top: 2vh;
 }
