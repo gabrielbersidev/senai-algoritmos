@@ -4,7 +4,7 @@ public class LivroFisico extends Livro {
 
     private String shelfLocation;
 
-    public LivroFisico(String title, String author, int availableQuantity, String shelfLocation) {
+    public LivroFisico(String title, String author, int availableQuantity, String shelfLocation){
         super(title, author, availableQuantity);
         this.shelfLocation = shelfLocation;
     }
