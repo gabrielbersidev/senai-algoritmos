@@ -41,7 +41,11 @@ public class ContaBancaria {
     }
 
     public void Sacar(float valorSaque){
-        numSaldo = numSaldo - valorSaque;
-        System.out.println("Saque de " + valorSaque + "R$ realizado com sucesso, agora há" + numSaldo + "R$ em sua conta!");
+        if(numSaldo>=0){
+            numSaldo = numSaldo - valorSaque;
+            System.out.println("Saque de " + valorSaque + "R$ realizado com sucesso, agora há " + numSaldo + "R$ em sua conta!");
+        }else{
+            System.out.println("Saldo insuficiente para transação");
+        }
     }
 }
