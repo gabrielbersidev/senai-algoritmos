@@ -16,5 +16,7 @@ public class Main {
 
         LivroFisico pequenoPrincipe = new LivroFisico("Pequeno Príncipe", "Antoine de Saint-Exupéry", 34, "A8");
         pequenoPrincipe.showInfo();
+
+        pequenoPrincipe.toLoan(2);
     }
 }

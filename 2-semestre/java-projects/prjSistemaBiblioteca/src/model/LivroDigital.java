@@ -8,6 +8,8 @@ public class LivroDigital extends Livro {
         super(title, author, availableQuantity);
         this.fileSizeMB = fileSizeMB;
     }
+
+    
     @Override
     public void showInfo() {
         super.showInfo();

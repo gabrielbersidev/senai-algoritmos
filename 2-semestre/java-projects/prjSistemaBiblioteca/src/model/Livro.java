@@ -34,9 +34,9 @@ public class Livro {
 
     //
 
-    public void toLoan(){
-        if(availableQuantity<1){
-            availableQuantity = availableQuantity - 1;
+    public void toLoan(int quantity){
+        if(quantity<=availableQuantity){
+            availableQuantity = availableQuantity - quantity;
             System.out.println("O Livro foi emprestado com sucesso, prazo de devolução: 15d");
             showInfo();
         } else{
