@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display e Position</title>
+    <style>
+        .box {
+            width: 150px;
+            height: 150px;
+            background-color: blue;
+            border: 2px solid black;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .div-block {
+            display: block;
+        }
+
+        .span-inline {
+            display: inline;
+        }
+
+        .div-inline-block {
+            display: inline-block;
+        }
+
+        .div-none {
+            display: none;
+        }
+
+        .div-relative {
+            position: relative;
+        }
+
+        .div-absolute {
+            position: absolute;
+            right: 10px;
+        }
+
+        .div-fixed {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Display</h1>
+
+    <h2>Display: block</h2>
+    <div class="box div-block">Div</div>
+    <div class="box div-block">Div</div>
+    <div class="box div-block">Div</div>
+    <div class="box div-block">Div</div>
+    <div class="box div-block">Div</div>
+    <div class="box div-block">Div</div>
+    <div class="box div-block">Div</div>
+    <div class="box div-block">Div</div>
+    <div class="box div-block">Div</div>
+    <div class="box div-block">Div</div>
+    
+
+    <h2>Display: inline</h2>
+    <span class="box span-inline">Eelemento</span>
+    <span class="box span-inline">Elemento</span>
+    <span class="box span-inline">Elemento</span>
+    <span class="box span-inline">Elemento</span>
+    <span class="box span-inline">Elemento</span>
+    <span class="box span-inline">Elemento</span>
+    <span class="box span-inline">Elemento</span>
+    <span class="box span-inline">Elemento</span>
+    <span class="box span-inline">Elemento</span>
+    <span class="box span-inline">Elemento</span>
+
+
+    <h2>Display: inline-block</h2>
+    <div class="box div-inline-block"></div>
+    <div class="box div-inline-block"></div>
+    <div class="box div-inline-block"></div>
+    <div class="box div-inline-block"></div>
+    <div class="box div-inline-block"></div>
+    <div class="box div-inline-block"></div>
+    <div class="box div-inline-block"></div>
+    <div class="box div-inline-block"></div>
+    <div class="box div-inline-block"></div>
+
+    <h2>Display: none</h2>
+    <div class="box div-none">Caixa Oculta</div>
+
+
+
+    <h2>Position</h2>
+
+    <h3>Position: relative</h3>
+    <div class="box div-relative"></div>
+
+    <h3>Position: absolute</h3>
+    <div class="box div-absolute"></div>
+
+    <h3>Position: fixo</h3>
+    <div class="box div-fixed"></div>
+</body>
+</html>
