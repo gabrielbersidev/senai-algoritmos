@@ -63,4 +63,9 @@ public class MovimentacaoEstoque{
         LocalDateTime dataHora = LocalDateTime.parse(partes[3]);
         return new MovimentacaoEstoque(idProduto,tipo,quantidade,dataHora);
     }
+
+    @Override
+    public String toString(){
+        return String.format("Produto ID: %d | TIPO: %-20s | QUANTIDADE: %-5 | DATA: R$ %2.f", idProduto, tipo, quantidade, dataHora.toString());
+    }
 }
