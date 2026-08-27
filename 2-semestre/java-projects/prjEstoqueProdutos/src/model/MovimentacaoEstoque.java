@@ -48,5 +48,19 @@ public class MovimentacaoEstoque{
 
     public LocalDateTime getDataHora(){
         return dataHora;
-    } 
+    }
+    
+
+    public String toCSV(){
+        return idProduto+";"+tipo+";"+quantidade+";"+dataHora.toString()+";";
+    }
+
+    public static MovimentacaoEstoque fromCSV(String linha){
+        String[] partes = linha.split(";");
+        int idProduto = Integer.parseInt(partes[0]);
+        TipoMovimentacao tipo = TipoMovimentacao.valueOf(partes[1]);
+        int quantidade = Integer.parseInt(partes[2]);
+        LocalDateTime dataHora = LocalDateTime.parse(partes[3]);
+        return new MovimentacaoEstoque(idProduto,tipo,quantidade,dataHora);
+    }
 }
