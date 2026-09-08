@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Tela Cheia - Exemplo 2</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      background-color: #2e353b;
+    }
+
+    .grid-container {
+      display: grid;
+      /* 3 colunas iguais e 3 linhas iguais */
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      
+      gap: 6px; 
+      width: 100vw;
+      height: 100vh;
+      padding: 6px;
+    }
+
+    .box {
+      background-color: #8faec4;
+      background-size: cover;
+      background-position: center;
+    }
+
+   
+    /* caixa 1: topo esquerda (1x1) */
+    .box-1 { 
+      grid-column: 1; 
+      grid-row: 1; 
+    }
+
+    /* caixa 2: topo centro (Alta - Ocupa 2 linhas para baixo) */
+    .box-2 { 
+      grid-column: 2; 
+      grid-row: 1 / span 2; 
+    }
+
+    /* Caixa 3: topo direita (1x1) */
+    .box-3 { 
+      grid-column: 3; 
+      grid-row: 1; 
+    }
+
+    /* Caixa 4: baixo esquerda (Alta - Começa na linha 2 e ocupa 2 linhas) */
+    .box-4 { 
+      grid-column: 1; 
+      grid-row: 2 / span 2; 
+    }
+
+    /* Caixa 5: baixo direita (Alta - Começa na linha 2 e ocupa 2 linhas) */
+    .box-5 { 
+      grid-column: 3; 
+      grid-row: 2 / span 2; 
+    }
+
+    /* Caixa 6: baixo centro (1x1 - Fica na última linha) */
+    .box-6 { 
+      grid-column: 2; 
+      grid-row: 3; 
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="grid-container">
+    <div class="box box-1"></div>
+    <div class="box box-2"></div>
+    <div class="box box-3"></div>
+    <div class="box box-4"></div>
+    <div class="box box-5"></div>
+    <div class="box box-6"></div>
+  </div>
+
+</body>
+</html>
